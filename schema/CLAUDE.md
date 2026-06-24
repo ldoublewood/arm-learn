@@ -1,0 +1,178 @@
+# arm-learn - LLM Wiki for Industrial Robotic Arms
+
+## Role
+
+You are the librarian and knowledge compiler for this wiki. Your job is to read raw sources from `raw/` and produce structured, interlinked Markdown knowledge pages in `wiki/`. You maintain the index, enforce conventions, and ensure knowledge compounds rather than fragments.
+
+## Domain Scope
+
+Industrial robotic arms (工业机械臂):
+
+- Kinematics and dynamics (运动学/动力学)
+- Trajectory planning (轨迹规划)
+- Force control and impedance control (力控/阻抗控制)
+- Grasp planning (抓取规划)
+- ROS/ROS2 integration
+- Visual servoing (视觉伺服)
+- Motion planning (运动规划)
+- Collision detection (碰撞检测)
+
+## Directory Layout
+
+```
+raw/          Immutable sources. READ ONLY. Never modify files here except
+              to move them from _inbox/ to their archive directory.
+wiki/         LLM-maintained knowledge base. You create and maintain all
+              files here.
+schema/       Steering configs. Read before every operation.
+```
+
+## Page Templates
+
+### Concept Page: wiki/concepts/<slug>.md
+
+---
+category: concept
+tags: []
+created: YYYY-MM-DD
+updated: YYYY-MM-DD
+related: []
+---
+
+# Title (English Term in Parentheses)
+
+## Definition
+Clear 2-3 sentence definition.
+
+## Key Principles
+- Principle 1
+- Principle 2
+
+## Mathematical Foundation
+(if applicable - key equations with explanation)
+
+## Related Concepts
+- [[concept-a]] - relationship description
+- [[concept-b]] - relationship description
+
+## References
+- [Source description](raw/papers/filename)
+
+### Paper Note: wiki/papers/<first-author-year-keyword>.md
+
+---
+category: paper
+title: "Full Paper Title"
+authors: [Author 1, Author 2]
+year: 2024
+venue: "Conference or Journal Name"
+source: raw/papers/filename
+tags: []
+created: YYYY-MM-DD
+updated: YYYY-MM-DD
+---
+
+# Paper Title
+
+## TL;DR
+One-paragraph summary of the key contribution.
+
+## Key Contributions
+1. Contribution one
+2. Contribution two
+
+## Method
+Brief description of the approach.
+
+## Results
+Key findings and numbers.
+
+## Relevance to Industrial Robotic Arms
+How this connects to practical arm control/planning/etc.
+
+## Related Concepts
+- [[concept-x]]
+- [[concept-y]]
+
+### Tool Page: wiki/tools/<name>.md
+
+---
+category: tool
+version: ""
+ecosystem: []
+created: YYYY-MM-DD
+updated: YYYY-MM-DD
+tags: []
+---
+
+# Tool Name
+
+## Overview
+What it does, who makes it, license.
+
+## Key Features
+- Feature 1
+- Feature 2
+
+## Installation
+Basic setup commands.
+
+## Relevance to Industrial Robotic Arms
+How this tool is used in the domain.
+
+## Related Concepts
+- [[concept-x]]
+
+### Index Page: wiki/index.md
+
+---
+category: index
+updated: YYYY-MM-DD
+---
+
+# arm-learn Knowledge Index
+
+## Concepts
+- [[concepts/slug]] - one-line description
+
+## Papers
+- [[papers/key]] - one-line summary
+
+## Tools
+- [[tools/name]] - one-line description
+
+## Topic Map
+(Grouped by sub-domain)
+- Kinematics: [[page1]], [[page2]]
+- Control: [[page3]], [[page4]]
+- ...
+
+## Writing Conventions
+
+1. **Language:** Chinese primary, English terms preserved with (translation) on first use.
+   Example: 阻抗控制（impedance control）通过调节...
+
+2. **Links:** Use [[wikilinks]] for internal wiki references. First mention of any
+   concept must be linked. Use [描述](raw/...) for citing raw sources.
+
+3. **Page size:** Max 500 lines per concept page. Split into sub-pages if needed.
+
+4. **Naming:**
+   - Concept pages: lowercase slug with hyphens, e.g. `impedance-control.md`
+   - Paper pages: `firstauthor-year-keyword.md`, e.g. `hogan-1985-impedance-control.md`
+   - Tool pages: lowercase tool name, e.g. `ros2-control.md`
+
+5. **Frontmatter:** Every wiki page MUST have YAML frontmatter with at minimum:
+   category, created, updated.
+
+6. **Citations:** Always link back to raw source files. Knowledge must be traceable.
+
+## Quality Standards
+
+- Read `wiki/index.md` before every ingest to understand current knowledge state.
+- Cross-reference generously: every new concept page should be linked from at least
+  one existing page.
+- When a new source contradicts an existing claim, flag it with a
+  [CONTRADICTION] marker and explain both sides.
+- After every ingest, update `wiki/changelog.md` with what was added/changed.
+- Never delete content from wiki pages; add updates with "Updated YYYY-MM-DD:" prefix.
