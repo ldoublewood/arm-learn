@@ -1,0 +1,67 @@
+# Curated sources for industrial robotic arms knowledge
+# Phase 2: auto-discovery will poll these for new content
+
+sources:
+  # Academic papers
+  - name: arXiv - Robotics (cs.RO)
+    url: https://arxiv.org/list/cs.RO/recent
+    type: rss
+    category: papers
+    language: english
+
+  - name: arXiv - Systems and Control (cs.SY)
+    url: https://arxiv.org/list/cs.SY/recent
+    type: rss
+    category: papers
+    language: english
+
+  - name: IEEE RAS publications
+    url: https://www.ieee-ras.org/publications
+    type: web
+    category: papers
+    language: english
+
+  # Documentation
+  - name: ROS 2 Documentation (Rolling)
+    url: https://docs.ros.org/en/rolling/
+    type: doc
+    category: tools
+    language: english
+
+  - name: MoveIt 2 Documentation
+    url: https://moveit.picknik.ai/main/
+    type: doc
+    category: tools
+    language: english
+
+  - name: Gazebo Simulation Docs
+    url: https://gazebosim.org/docs/latest
+    type: doc
+    category: tools
+    language: english
+
+  - name: ros2_control Documentation
+    url: https://control.ros.org/master/
+    type: doc
+    category: tools
+    language: english
+
+  # Community
+  - name: ROS Discourse
+    url: https://discourse.ros.org/
+    type: forum
+    category: articles
+    language: english
+
+  # Chinese sources
+  - name: 知乎 - 机器人话题
+    url: https://www.zhihu.com/topic/19563833
+    type: social
+    category: articles
+    language: chinese
+
+  - name: 知乎 - ROS话题
+    url: https://www.zhihu.com/topic/20022224
+    type: social
+    category: articles
+    language: chinese
