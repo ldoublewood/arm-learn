@@ -20,7 +20,14 @@ updated: 2026-06-24
 
 - [[tools/ros2-control]] — ROS 2 实时控制框架，支持多种控制模式和硬件抽象
 
+## 资源与平台（Resources & Platforms）
+
+- [[open-source-arm-projects]] — 开源机械臂项目汇总：reBot-DevArm、OpenArm、Panthera-HT、EL-A3、牧卫 Mockway 五大项目的全面对比
+
 ## 主题地图（Topic Map）
+
+### 开源平台与生态
+- [[open-source-arm-projects]]
 
 ### 力控与顺应控制（Force Control & Compliance）
 - [[concepts/impedance-control]]
