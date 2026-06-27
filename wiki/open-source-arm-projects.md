@@ -2,8 +2,8 @@
 category: reference
 tags: [open-source, platforms, hardware, software, comparison]
 created: 2026-06-24
-updated: 2026-06-24
-related: [[concepts/impedance-control]], [[tools/ros2-control]]
+updated: 2026-06-27
+related: [[concepts/impedance-control]], [[tools/ros2-control]], [[concepts/imitation-learning]], [[concepts/vla-vision-language-action]], [[tools/lerobot]]
 ---
 
 # 开源机械臂项目概览（Open Source Robotic Arm Projects）
