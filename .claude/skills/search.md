@@ -31,6 +31,7 @@ Read `schema/CLAUDE.md` for domain scope context.
    **URL:** https://...
    **Date captured:** YYYY-MM-DD
    **Source type:** web article / paper / documentation
+   **Language:** english / chinese
 
    ---
    (full content in markdown)

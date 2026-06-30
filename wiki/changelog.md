@@ -1,6 +1,6 @@
 ---
 category: changelog
-updated: 2026-06-27
+updated: 2026-06-28
 ---
 
 # 变更记录（Changelog）
@@ -23,3 +23,11 @@ updated: 2026-06-27
 - **New pages:** [[concepts/vla-vision-language-action]], [[concepts/imitation-learning]], [[tools/lerobot]]
 - **Updated pages:** [[index]] (新增概念和工具条目，新增"模仿学习与具身智能"主题组)
 - **Summary:** 摄入 XLeRobot VLA 训练教程：新增 VLA 视觉-语言-动作模型概念、模仿学习概念、LeRobot 工具页面，打通传统控制与具身智能学习的知识桥梁
+
+## 2026-06-28
+
+- **Source:** raw/papers/2026-06-28-anthropomorphic-hands-survey.md
+- **New pages:** [[papers/fabisch-2025-anthropomorphic-hands]], [[concepts/dexterous-manipulation]], [[concepts/tactile-sensing]]
+- **Updated pages:** [[index]] (新增论文条目，新增"抓取与灵巧操作"主题组)
+- **Translation:** translations/papers/2026-06-28-anthropomorphic-hands-survey-zh.md
+- **Summary:** 摄入 Fabisch 2025 系统综述论文：回答"机器人是否需要仿人手"，新增灵巧操作和触觉感知两个概念页面，首次启用自动翻译功能生成中文译本

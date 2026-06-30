@@ -6,6 +6,7 @@ Process new raw sources from `raw/_inbox/` and integrate them into the wiki.
 ## Pre-conditions
 - One or more files exist in `raw/_inbox/`
 - `schema/CLAUDE.md` has been read for conventions
+- `schema/config.yaml` has been read for behavior flags
 
 ## Procedure
 
@@ -14,6 +15,21 @@ Read ALL files currently in `raw/_inbox/`. For each file, determine:
 - Type: paper, article, documentation, or other
 - Primary topic(s): which concepts does it cover?
 - Quality: is this substantive enough to ingest? (Skip spam, paywalls, empty content)
+- Language: check the `**Language:**` metadata field (english / chinese / other)
+
+### 1.5 Translation (conditional)
+
+If `schema/config.yaml` has `ingest.translate_to_chinese: true` AND
+the source file has `**Language:** english`:
+  - Translate the raw source content to Chinese. Preserve technical terms
+    with English in parentheses on first use (e.g., 模仿学习（Imitation Learning）).
+  - Save the translation to `translations/<category>/<original-filename>-zh.md`
+    (e.g., `raw/docs/2026-06-27-vla-xlerobot.md` →
+    `translations/docs/2026-06-27-vla-xlerobot-zh.md`).
+  - Use the same frontmatter format as the original, with an additional field:
+    `**Translated from:** raw/<category>/<original-filename>`
+  - In the changelog (step 5), add a note:
+    `- **Translation:** translations/<category>/<filename>-zh.md`
 
 ### 2. Context Loading
 Read `wiki/index.md` to understand the current knowledge structure.

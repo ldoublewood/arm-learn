@@ -11,7 +11,8 @@ pages and check for quality issues.
 ## Before You Begin
 
 1. Read `schema/CLAUDE.md` for conventions and quality standards.
-2. Read `schema/prompts/lint.md` for the detailed lint procedure.
+2. Read `schema/config.yaml` for project configuration.
+3. Read `schema/prompts/lint.md` for the detailed lint procedure.
 
 ## Execution
 

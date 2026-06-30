@@ -1,0 +1,8 @@
+# arm-learn 项目配置
+# 技能（skills）通过读取此文件来改变行为。修改配置后，下次运行技能时生效。
+
+ingest:
+  # 当为 true 时，ingest 英文文档（Language: english）会自动生成中文翻译副本
+  # 翻译文件保存在 translations/ 目录，文件名加 -zh 后缀
+  # 默认关闭，需要翻译时手动开启
+  translate_to_chinese: true

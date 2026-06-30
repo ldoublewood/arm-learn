@@ -12,8 +12,9 @@ from `raw/_inbox/` and integrate them into the LLM-maintained wiki.
 
 1. Read `schema/CLAUDE.md` for the project constitution, domain scope, page templates,
    and writing conventions.
-2. Read `schema/prompts/ingest.md` for the detailed ingest procedure.
-3. List files in `raw/_inbox/`. If empty, tell the user there is nothing to ingest.
+2. Read `schema/config.yaml` for project configuration (e.g., translation flags).
+3. Read `schema/prompts/ingest.md` for the detailed ingest procedure.
+4. List files in `raw/_inbox/`. If empty, tell the user there is nothing to ingest.
 
 ## Execution
 

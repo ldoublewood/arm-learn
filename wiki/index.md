@@ -1,6 +1,6 @@
 ---
 category: index
-updated: 2026-06-27
+updated: 2026-06-28
 ---
 
 # arm-learn 知识索引（Knowledge Index）
@@ -13,10 +13,12 @@ updated: 2026-06-27
 - [[concepts/admittance-control]] — 导纳控制：阻抗控制的对偶方法，适用于重型工业臂
 - [[concepts/imitation-learning]] — 模仿学习：从人类示范中学习机器人控制策略
 - [[concepts/vla-vision-language-action]] — VLA 视觉-语言-动作模型：端到端感知到控制的具身智能方法
+- [[concepts/dexterous-manipulation]] — 灵巧操作：多指协调、触觉反馈、精细物体操控
+- [[concepts/tactile-sensing]] — 触觉感知：机器人触觉传感器的原理、技术与应用
 
 ## 论文（Papers）
 
-（暂无）
+- [[papers/fabisch-2025-anthropomorphic-hands]] — 系统性综述：机器人是否真的需要仿人手？125篇论文分析
 
 ## 工具（Tools）
 
@@ -35,6 +37,11 @@ updated: 2026-06-27
 ### 力控与顺应控制（Force Control & Compliance）
 - [[concepts/impedance-control]]
 - [[concepts/admittance-control]]
+
+### 抓取与灵巧操作（Grasping & Dexterous Manipulation）
+- [[concepts/dexterous-manipulation]]
+- [[concepts/tactile-sensing]]
+- [[papers/fabisch-2025-anthropomorphic-hands]]
 
 ### 模仿学习与具身智能（Imitation Learning & Embodied AI）
 - [[concepts/imitation-learning]]
