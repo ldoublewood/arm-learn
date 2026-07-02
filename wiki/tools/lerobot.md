@@ -81,15 +81,15 @@ python -m lerobot.async_inference.policy_server --host=0.0.0.0 --port=8080
 LeRobot 代表了机器人编程范式的转变——从手工编写控制代码到通过示范学习策略。在工业场景中：
 - 可用于快速原型验证抓取、放置等操作任务
 - 数据集共享机制促进社区协作和模型复用
-- 但目前精度和可靠性尚未达到工业级标准，与 [[tools/ros2-control|传统控制框架]] 互补使用
+- 但目前精度和可靠性尚未达到工业级标准，与 [[ros2-control|传统控制框架]] 互补使用
 
 ## 相关概念（Related Concepts）
 
-- [[concepts/imitation-learning]] — LeRobot 的核心训练范式
-- [[concepts/vla-vision-language-action]] — LeRobot 支持的 VLA 策略
-- [[concepts/impedance-control]] — 传统控制方法与学习方法的互补
+- [[../concepts/imitation-learning]] — LeRobot 的核心训练范式
+- [[../concepts/vla-vision-language-action]] — LeRobot 支持的 VLA 策略
+- [[../concepts/impedance-control]] — 传统控制方法与学习方法的互补
 
 ## 参考文献（References）
 
-- [VLA Training for XLeRobot](raw/docs/2026-06-27-vla-xlerobot.md)
+- [VLA Training for XLeRobot](../../raw/docs/2026-06-27-vla-xlerobot.md)
 - [LeRobot 官方文档](https://huggingface.co/docs/lerobot)

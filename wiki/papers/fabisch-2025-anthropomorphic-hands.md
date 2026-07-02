@@ -62,7 +62,7 @@ updated: 2026-06-28
 
 ## 相关概念（Related Concepts）
 
-- [[concepts/dexterous-manipulation]] — 本文的核心主题：灵巧操作的定义与评估
-- [[concepts/tactile-sensing]] — 触觉感知是灵巧操作的关键使能技术
-- [[concepts/imitation-learning]] — VLA模型是机械手控制的新兴方法
-- [[concepts/impedance-control]] — 力控是实现稳定抓取的基础
+- [[../concepts/dexterous-manipulation]] — 本文的核心主题：灵巧操作的定义与评估
+- [[../concepts/tactile-sensing]] — 触觉感知是灵巧操作的关键使能技术
+- [[../concepts/imitation-learning]] — VLA模型是机械手控制的新兴方法
+- [[../concepts/impedance-control]] — 力控是实现稳定抓取的基础

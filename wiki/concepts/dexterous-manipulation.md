@@ -3,7 +3,7 @@ category: concept
 tags: [dexterity, manipulation, grasping, in-hand-manipulation]
 created: 2026-06-28
 updated: 2026-06-28
-related: [[concepts/tactile-sensing]], [[papers/fabisch-2025-anthropomorphic-hands]]
+related: [[tactile-sensing]], [[../papers/fabisch-2025-anthropomorphic-hands]]
 ---
 
 # 灵巧操作（Dexterous Manipulation）
@@ -50,11 +50,11 @@ Dollar 提出的操作分类法独立于手部形态，将操作技能分为：
 
 ## 相关概念（Related Concepts）
 
-- [[concepts/tactile-sensing]] — 触觉感知是实现闭环灵巧操作的前提
-- [[concepts/impedance-control]] — 力控策略用于实现稳定抓取和力封闭
-- [[concepts/imitation-learning]] — 灵巧操作策略可通过遥操作示教学习
-- [[papers/fabisch-2025-anthropomorphic-hands]] — 系统综述：仿人手设计的必要性质疑
+- [[tactile-sensing]] — 触觉感知是实现闭环灵巧操作的前提
+- [[impedance-control]] — 力控策略用于实现稳定抓取和力封闭
+- [[imitation-learning]] — 灵巧操作策略可通过遥操作示教学习
+- [[../papers/fabisch-2025-anthropomorphic-hands]] — 系统综述：仿人手设计的必要性质疑
 
 ## 参考文献（References）
 
-- [Fabisch 2025 - Anthropomorphic Hands Survey](raw/papers/2026-06-28-anthropomorphic-hands-survey.md)
+- [Fabisch 2025 - Anthropomorphic Hands Survey](../../raw/papers/2026-06-28-anthropomorphic-hands-survey.md)

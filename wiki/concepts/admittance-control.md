@@ -3,14 +3,14 @@ category: concept
 tags: [force-control, dynamics]
 created: 2026-06-24
 updated: 2026-06-24
-related: [[concepts/impedance-control]]
+related: [[impedance-control]]
 ---
 
 # 导纳控制（Admittance Control）
 
 ## 定义（Definition）
 
-导纳控制（admittance control）是[[concepts/impedance-control|阻抗控制]]（impedance control）的对偶方法。在导纳控制中，机器人被视为**机械导纳**：接受运动输入，产生力输出。其典型实现架构是位置控制内环 + 力控制外环。
+导纳控制（admittance control）是[[impedance-control|阻抗控制]]（impedance control）的对偶方法。在导纳控制中，机器人被视为**机械导纳**：接受运动输入，产生力输出。其典型实现架构是位置控制内环 + 力控制外环。
 
 ## 核心原理（Key Principles）
 
@@ -20,7 +20,7 @@ related: [[concepts/impedance-control]]
 
 ## 与阻抗控制的对比
 
-| 特性 | 导纳控制 | [[concepts/impedance-control|阻抗控制]] |
+| 特性 | 导纳控制 | [[impedance-control|阻抗控制]] |
 |------|----------|----------|
 | 因果 | 运动 → 力 | 力 → 运动 |
 | 适用 | 重型、高减速比、非反向可驱 | 轻量、低减速比、反向可驱 |
@@ -36,4 +36,4 @@ related: [[concepts/impedance-control]]
 
 ## 参考文献（References）
 
-- [阻抗控制入门介绍](raw/articles/2026-06-24-impedance-control-intro.md)
+- [阻抗控制入门介绍](../../raw/articles/2026-06-24-impedance-control-intro.md)

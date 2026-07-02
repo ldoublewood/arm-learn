@@ -3,7 +3,7 @@ category: concept
 tags: [tactile-sensing, haptic-perception, sensors, grasping]
 created: 2026-06-28
 updated: 2026-06-28
-related: [[concepts/dexterous-manipulation]], [[papers/fabisch-2025-anthropomorphic-hands]]
+related: [[dexterous-manipulation]], [[../papers/fabisch-2025-anthropomorphic-hands]]
 ---
 
 # 触觉感知（Tactile Sensing）
@@ -72,10 +72,10 @@ related: [[concepts/dexterous-manipulation]], [[papers/fabisch-2025-anthropomorp
 
 ## 相关概念（Related Concepts）
 
-- [[concepts/dexterous-manipulation]] — 触觉感知是灵巧操作的基础使能技术
-- [[concepts/impedance-control]] — 力控与触觉反馈互补，实现柔顺操作
-- [[papers/fabisch-2025-anthropomorphic-hands]] — 系统综述中详细分析了人手与机械手的感知能力对比
+- [[dexterous-manipulation]] — 触觉感知是灵巧操作的基础使能技术
+- [[impedance-control]] — 力控与触觉反馈互补，实现柔顺操作
+- [[../papers/fabisch-2025-anthropomorphic-hands]] — 系统综述中详细分析了人手与机械手的感知能力对比
 
 ## 参考文献（References）
 
-- [Fabisch 2025 - Anthropomorphic Hands Survey](raw/papers/2026-06-28-anthropomorphic-hands-survey.md)
+- [Fabisch 2025 - Anthropomorphic Hands Survey](../../raw/papers/2026-06-28-anthropomorphic-hands-survey.md)

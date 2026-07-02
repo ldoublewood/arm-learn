@@ -48,7 +48,7 @@ related: [[concepts/impedance-control]], [[tools/ros2-control]], [[concepts/imit
 - Isaac Sim 仿真（开发中）
 - 语音控制（reSpeaker 4麦阵列）
 
-> 参考：[reBot-DevArm 详情](raw/articles/2026-06-24-rebot-devarm.md)
+> 参考：[reBot-DevArm 详情](../raw/articles/2026-06-24-rebot-devarm.md)
 
 ---
 
@@ -81,7 +81,7 @@ related: [[concepts/impedance-control]], [[tools/ros2-control]], [[concepts/imit
 - 标准化数据集格式和录制工具
 - OpenArm Cell 标准化评估环境（确保全球研究可复现）
 
-> 参考：[OpenArm 详情](raw/articles/2026-06-24-openarm-enactic.md)
+> 参考：[OpenArm 详情](../raw/articles/2026-06-24-openarm-enactic.md)
 
 ---
 
@@ -112,7 +112,7 @@ related: [[concepts/impedance-control]], [[tools/ros2-control]], [[concepts/imit
 - LeRobot 模仿学习
 - 未来：视觉伺服、GraspNet、Pi0/Pi0.5 等前沿算法
 
-> 参考：[Panthera-HT 详情](raw/articles/2026-06-24-panthera-ht.md)
+> 参考：[Panthera-HT 详情](../raw/articles/2026-06-24-panthera-ht.md)
 
 ---
 
@@ -138,7 +138,7 @@ related: [[concepts/impedance-control]], [[tools/ros2-control]], [[concepts/imit
 - Pinocchio 动力学（FK/IK/重力补偿）
 - 多臂管理支持
 
-> 参考：[EL-A3 详情](raw/articles/2026-06-24-edulite-a3.md)
+> 参考：[EL-A3 详情](../raw/articles/2026-06-24-edulite-a3.md)
 
 ---
 
@@ -167,7 +167,7 @@ related: [[concepts/impedance-control]], [[tools/ros2-control]], [[concepts/imit
 - Pinocchio 动力学
 - 特别注意安全：力矩模式下的安全操作流程
 
-> 参考：[Mockway 详情](raw/articles/2026-06-24-mockway-robotics.md)
+> 参考：[Mockway 详情](../raw/articles/2026-06-24-mockway-robotics.md)
 
 ---
 

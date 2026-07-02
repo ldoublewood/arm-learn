@@ -36,16 +36,16 @@ sudo apt install ros-humble-ros2-control ros-humble-ros2-controllers
 `ros2_control` 在工业机械臂领域的关键价值：
 
 1. **标准控制器接口**：`joint_trajectory_controller` 提供标准轨迹跟踪
-2. **力控支持**：通过 `force_torque_sensor_broadcaster` 和社区 `impedance_control` 包实现[[concepts/impedance-control|阻抗控制]]
+2. **力控支持**：通过 `force_torque_sensor_broadcaster` 和社区 `impedance_control` 包实现[[../concepts/impedance-control|阻抗控制]]
 3. **MoveIt 2 集成**：作为 MoveIt 2 的底层控制执行后端
 4. **Gazebo 仿真**：与 Gazebo 无缝集成，实现仿真到真机的完整控制链
 
 ## 相关概念（Related Concepts）
 
-- [[concepts/impedance-control]] — 阻抗控制可以通过 ros2_control 实现
-- [[concepts/admittance-control]] — 导纳控制在重型工业臂上的实现也依赖 ros2_control 的力控接口
+- [[../concepts/impedance-control]] — 阻抗控制可以通过 ros2_control 实现
+- [[../concepts/admittance-control]] — 导纳控制在重型工业臂上的实现也依赖 ros2_control 的力控接口
 
 ## 参考文献（References）
 
-- [阻抗控制入门介绍](raw/articles/2026-06-24-impedance-control-intro.md)
+- [阻抗控制入门介绍](../../raw/articles/2026-06-24-impedance-control-intro.md)
 - [ROS 2 Control 官方文档](https://control.ros.org/)

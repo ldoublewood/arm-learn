@@ -3,7 +3,7 @@ category: concept
 tags: [imitation-learning, behavioral-cloning, demonstration, policy-learning]
 created: 2026-06-27
 updated: 2026-06-27
-related: [[concepts/vla-vision-language-action]], [[tools/lerobot]]
+related: [[vla-vision-language-action]], [[../tools/lerobot]]
 ---
 
 # 模仿学习（Imitation Learning）
@@ -33,7 +33,7 @@ related: [[concepts/vla-vision-language-action]], [[tools/lerobot]]
 
 ## 训练框架
 
-- [[tools/lerobot|LeRobot]]：HuggingFace 的机器人学习框架，支持 ACT、Diffusion Policy 等主流算法
+- [[../tools/lerobot|LeRobot]]：HuggingFace 的机器人学习框架，支持 ACT、Diffusion Policy 等主流算法
 - **RoboMimic**：Stanford 的模仿学习基准框架
 - **RoboTwin**：双臂模仿学习框架
 
@@ -46,10 +46,10 @@ related: [[concepts/vla-vision-language-action]], [[tools/lerobot]]
 
 ## 相关概念（Related Concepts）
 
-- [[concepts/vla-vision-language-action]] — 结合视觉和语言的模仿学习扩展
-- [[concepts/impedance-control]] — 传统力控方法与学习方法的互补
-- [[tools/ros2-control]] — 传统控制框架，可与学习策略混合使用
+- [[vla-vision-language-action]] — 结合视觉和语言的模仿学习扩展
+- [[impedance-control]] — 传统力控方法与学习方法的互补
+- [[../tools/ros2-control]] — 传统控制框架，可与学习策略混合使用
 
 ## 参考文献（References）
 
-- [VLA Training for XLeRobot](raw/docs/2026-06-27-vla-xlerobot.md)
+- [VLA Training for XLeRobot](../../raw/docs/2026-06-27-vla-xlerobot.md)

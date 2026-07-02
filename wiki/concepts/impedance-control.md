@@ -3,7 +3,7 @@ category: concept
 tags: [force-control, dynamics]
 created: 2026-06-24
 updated: 2026-06-24
-related: [[concepts/admittance-control]], [[tools/ros2-control]]
+related: [[admittance-control]], [[../tools/ros2-control]]
 ---
 
 # 阻抗控制（Impedance Control）
@@ -47,7 +47,7 @@ $$M(\ddot{x} - \ddot{x}_d) + B(\dot{x} - \dot{x}_d) + K(x - x_d) = F_{ext}$$
 
 ## 与导纳控制的关系（Relation to Admittance Control）
 
-阻抗控制与[[concepts/admittance-control|导纳控制]]（admittance control）互为对偶：
+阻抗控制与[[admittance-control|导纳控制]]（admittance control）互为对偶：
 
 | 特性 | 阻抗控制 | 导纳控制 |
 |------|----------|----------|
@@ -57,4 +57,4 @@ $$M(\ddot{x} - \ddot{x}_d) + B(\dot{x} - \dot{x}_d) + K(x - x_d) = F_{ext}$$
 
 ## 参考文献（References）
 
-- [阻抗控制入门介绍](raw/articles/2026-06-24-impedance-control-intro.md)
+- [阻抗控制入门介绍](../../raw/articles/2026-06-24-impedance-control-intro.md)
